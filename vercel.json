@@ -1,5 +1,11 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "version": 2,
+  "public": true,
+  "builds": [],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.html"
+    }
   ]
 }
