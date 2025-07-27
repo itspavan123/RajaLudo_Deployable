@@ -1,1 +1,5 @@
-// Dummy content for vercel.json
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
